@@ -22,7 +22,7 @@ function App() {
             <h4 className="error">{error}</h4>
         </div>
       ))}
-      <Form setPersona={setPersona} setError={setError} error={error} />     
+      <Form setPersona={setPersona} setError={setError} />     
       {mostrarCard(persona)}  
     </div>
     )
